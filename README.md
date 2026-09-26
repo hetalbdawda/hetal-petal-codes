@@ -1,16 +1,37 @@
-# React + Vite
+# Hetal Dawda — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal front-end portfolio built with **React 19** and **Vite**. Front-end
+software engineer shipping React Native consumer apps.
 
-Currently, two official plugins are available:
+🔗 **Live site:** _add your deployment URL here_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sections
 
-## React Compiler
+- **Hero** — intro, contact, and social links
+- **About** — short bio
+- **Skills** — languages, mobile & front-end, tools, and hardware
+- **Experience** — work history timeline
+- **Projects** — selected personal, hackathon, and competition work
+- **Education** — University of Waterloo, Mechatronics Engineering
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech
 
-## Expanding the ESLint configuration
+- React 19
+- Vite 8
+- Vanilla CSS with design tokens + light/dark theme
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting started
+
+```bash
+npm install     # install dependencies
+npm run dev     # start the dev server
+npm run build   # production build to /dist
+npm run preview # preview the production build
+```
+
+## Editing content
+
+All resume content lives in [`src/data/resume.js`](src/data/resume.js). Update
+values there — profile, skills, experience, projects, and education — and the UI
+updates automatically. Remember to replace the placeholder `#` links in
+`profile.links` with your real GitHub, LinkedIn, and Devpost URLs.

@@ -10,9 +10,9 @@ export const profile = {
   location: 'Toronto, ON',
   // TODO: replace the "#" placeholders with your real profile URLs.
   links: {
-    github: '#',
-    linkedin: '#',
-    devpost: '#',
+    github: 'https://github.com/hetalbdawda',
+    linkedin: '#', // TODO: replace with your LinkedIn profile URL
+    devpost: '#', // TODO: replace with your Devpost profile URL
   },
 }
 

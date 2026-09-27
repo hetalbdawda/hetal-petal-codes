@@ -3,6 +3,13 @@ import { profile } from '../data/resume'
 export default function Hero() {
   const { name, title, tagline, email, phone, location, links } = profile
 
+  // Only show social links that have a real URL set in resume.js.
+  const socials = [
+    { label: 'GitHub', href: links.github },
+    { label: 'LinkedIn', href: links.linkedin },
+    { label: 'Devpost', href: links.devpost },
+  ].filter((s) => s.href && s.href !== '#')
+
   return (
     <section id="top" className="hero">
       <div className="container hero__inner">
@@ -20,30 +27,17 @@ export default function Hero() {
           <a className="btn btn--primary" href={`mailto:${email}`}>
             Get in touch
           </a>
-          <a
-            className="btn btn--ghost"
-            href={links.github}
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub
-          </a>
-          <a
-            className="btn btn--ghost"
-            href={links.linkedin}
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn
-          </a>
-          <a
-            className="btn btn--ghost"
-            href={links.devpost}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Devpost
-          </a>
+          {socials.map((s) => (
+            <a
+              key={s.label}
+              className="btn btn--ghost"
+              href={s.href}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {s.label}
+            </a>
+          ))}
         </div>
 
         <ul className="hero__contact">

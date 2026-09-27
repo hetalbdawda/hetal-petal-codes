@@ -4,6 +4,13 @@ export default function Footer() {
   const { name, email, links } = profile
   const year = new Date().getFullYear()
 
+  // Only show social links that have a real URL set in resume.js.
+  const socials = [
+    { label: 'GitHub', href: links.github },
+    { label: 'LinkedIn', href: links.linkedin },
+    { label: 'Devpost', href: links.devpost },
+  ].filter((s) => s.href && s.href !== '#')
+
   return (
     <footer className="footer">
       <div className="container footer__inner">
@@ -15,15 +22,11 @@ export default function Footer() {
         </div>
 
         <nav className="footer__links" aria-label="Social links">
-          <a href={links.github} target="_blank" rel="noreferrer">
-            GitHub
-          </a>
-          <a href={links.linkedin} target="_blank" rel="noreferrer">
-            LinkedIn
-          </a>
-          <a href={links.devpost} target="_blank" rel="noreferrer">
-            Devpost
-          </a>
+          {socials.map((s) => (
+            <a key={s.label} href={s.href} target="_blank" rel="noreferrer">
+              {s.label}
+            </a>
+          ))}
         </nav>
       </div>
       <p className="footer__copy">

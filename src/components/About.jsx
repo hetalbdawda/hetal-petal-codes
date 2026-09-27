@@ -10,11 +10,13 @@ export default function About() {
         </h2>
         <div className="about__grid">
           <p className="about__lead">
-            I&apos;m a front-end software engineer focused on React Native and
-            React. At Vivid Seats I ship core mobile flows to millions of users,
+            I&apos;m a full-stack software engineer focused on React Native and
+            React, backed by a Node.js/TypeScript BFF layer. At Vivid Seats I
+            helped lead the move to React Native for apps that power over $1
+            billion in annual GOV, shipping core flows to millions of customers
             from onboarding and ticket details to internationalization across 10
             countries, and I care about the details that make an app feel fast,
-            reliable, and pleasant to use.
+            reliable, and accessible.
           </p>
           <p className="about__body">
             My background is in Mechatronics Engineering from the{' '}

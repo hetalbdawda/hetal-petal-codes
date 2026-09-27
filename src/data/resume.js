@@ -1,5 +1,5 @@
 // Central content source for the portfolio.
-// Edit values here to update the site — no component changes needed.
+// Edit values here to update the site. No component changes needed.
 
 export const profile = {
   name: 'Hetal Dawda',
@@ -169,7 +169,7 @@ export const projects = [
   },
   {
     name: 'Smart Parking System',
-    context: 'JAMHacks 2 — Best Hardware Award',
+    context: 'JAMHacks 2 · Best Hardware Award',
     description:
       'Developed a miniature smart parking system using Arduino, C++, and sensors to track parking space occupancy in real time.',
     tags: ['Arduino', 'C++', 'Hardware'],
@@ -179,6 +179,6 @@ export const projects = [
 export const education = {
   school: 'University of Waterloo',
   degree: 'Bachelor of Applied Science',
-  program: 'Mechatronics Engineering — Biomechanics Option',
+  program: 'Mechatronics Engineering, Biomechanics Option',
   graduation: 'April 2023',
 }

@@ -11,9 +11,9 @@ export default function About() {
         <div className="about__grid">
           <p className="about__lead">
             I&apos;m a front-end software engineer focused on React Native and
-            React. At Vivid Seats I ship core mobile flows to millions of users —
+            React. At Vivid Seats I ship core mobile flows to millions of users,
             from onboarding and ticket details to internationalization across 10
-            countries — and I care about the details that make an app feel fast,
+            countries, and I care about the details that make an app feel fast,
             reliable, and pleasant to use.
           </p>
           <p className="about__body">

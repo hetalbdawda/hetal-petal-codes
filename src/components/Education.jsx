@@ -11,7 +11,7 @@ export default function Education() {
           <div className="edu-card__body">
             <h3 className="edu-card__school">{education.school}</h3>
             <p className="edu-card__degree">
-              {education.degree} — {education.program}
+              {education.degree}, {education.program}
             </p>
           </div>
           <span className="edu-card__grad">{education.graduation}</span>

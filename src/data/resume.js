@@ -111,6 +111,7 @@ export const experience = [
       'Processed images using OpenCV and matplotlib in Python.',
       'Implemented mathematical and statistical models for calibration and machine learning algorithms to accurately determine the concentration of an RDT.',
       'Developed a front-end application using Flutter and Kivy to integrate with the image processing backend logic.',
+      'Delivered calibration tooling and backend logic tying imaging outputs to lab workflows.',
     ],
   },
   {

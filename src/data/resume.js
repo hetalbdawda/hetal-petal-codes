@@ -107,8 +107,10 @@ export const experience = [
     location: 'Mississauga, ON',
     period: 'May – Aug 2021',
     highlights: [
-      'Built a COVID-19 rapid diagnostic scanning pipeline: Flutter/Kivy front-end integrated with Python/OpenCV/matplotlib image processing and ML/statistical models for concentration estimates.',
-      'Delivered calibration tooling and backend logic tying imaging outputs to lab workflows.',
+      'Developed a COVID-19 Rapid Diagnostic Test scanning tool that outputs RDT results with concentration levels.',
+      'Processed images using OpenCV and matplotlib in Python.',
+      'Implemented mathematical and statistical models for calibration and machine learning algorithms to accurately determine the concentration of an RDT.',
+      'Developed a front-end application using Flutter and Kivy to integrate with the image processing backend logic.',
     ],
   },
   {

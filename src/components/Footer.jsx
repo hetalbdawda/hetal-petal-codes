@@ -6,9 +6,9 @@ export default function Footer() {
 
   // Only show social links that have a real URL set in resume.js.
   const socials = [
-    { label: 'GitHub', href: links.github },
     { label: 'LinkedIn', href: links.linkedin },
     { label: 'Devpost', href: links.devpost },
+    { label: 'GitHub', href: links.github },
   ].filter((s) => s.href && s.href !== '#')
 
   return (

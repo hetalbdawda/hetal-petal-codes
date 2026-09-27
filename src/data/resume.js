@@ -4,7 +4,7 @@
 export const profile = {
   name: 'Hetal Dawda',
   title: 'Software Engineer',
-  tagline: 'Front-end engineer shipping React Native consumer apps',
+  tagline: 'Full-stack engineer shipping React Native consumer apps',
   email: 'hetalbdawda@gmail.com',
   phone: '(416) 854-2165',
   location: 'Toronto, ON',
@@ -96,6 +96,7 @@ export const experience = [
     highlights: [
       'Built a React Native app (React Navigation, Redux, Jest, React Native Testing Library) to analyze rapid diagnostic tests using JavaScript, HTML, and CSS.',
       'Bridged the app to native Android (Android Studio, Java) for OpenCV-based image crop/analysis workflows.',
+      'Used the Android camera to detect rapid diagnostic tests (RDTs) and estimate their concentration with a machine learning model trained on curated datasets.',
       'Implemented Firebase Auth and Firestore for authentication and data storage.',
       'Led a team of six developers using Jira for sprint planning.',
     ],

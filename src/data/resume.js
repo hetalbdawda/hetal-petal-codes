@@ -11,8 +11,8 @@ export const profile = {
   // TODO: replace the "#" placeholders with your real profile URLs.
   links: {
     github: 'https://github.com/hetalbdawda',
-    linkedin: '#', // TODO: replace with your LinkedIn profile URL
-    devpost: '#', // TODO: replace with your Devpost profile URL
+    linkedin: 'https://www.linkedin.com/in/hetal-dawda-110b16177',
+    devpost: 'https://devpost.com/hetalbdawda',
   },
 }
 

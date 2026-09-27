@@ -174,6 +174,13 @@ export const projects = [
       'Developed a miniature smart parking system using Arduino, C++, and sensors to track parking space occupancy in real time.',
     tags: ['Arduino', 'C++', 'Hardware'],
   },
+  {
+    name: 'Augmented Workouts',
+    context: 'JAMHacks · Best Use of Projection (Christie)',
+    description:
+      'Built an interactive fitness system on an Intel Edison board: a pedometer that tracks steps, distance, and calories, RGB lights that celebrate every 100-step checkpoint, and a projector-driven 3D panorama the user can navigate for immersive indoor cardio.',
+    tags: ['C++', 'JavaScript', 'Intel Edison', 'Hardware'],
+  },
 ]
 
 export const education = {

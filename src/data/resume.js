@@ -122,6 +122,7 @@ export const experience = [
     highlights: [
       'Used VB to create an application to collect data and analyze temperature readings from 12 thermocouples.',
       'Designed and performed experiments in a dry optics lab with specialized equipment and analyzed results in JMP.',
+      'Presented findings from the research, trials, and JMP results to the team to inform next steps.',
     ],
   },
   {

@@ -222,6 +222,7 @@ export const projects = [
       },
     ],
     links: [
+      { label: 'Website', href: 'https://hetalbdawda.github.io/whisk-and-bean/' },
       { label: 'GitHub', href: 'https://github.com/hetalbdawda/whisk-and-bean' },
     ],
   },

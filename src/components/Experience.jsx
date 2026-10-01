@@ -57,7 +57,7 @@ export default function Experience() {
                     </p>
                     <Filmstrip
                       images={job.gallery}
-                      interval={6000}
+                      interval={5000}
                       label={`${job.company} mobile app`}
                     />
                   </div>

@@ -87,6 +87,15 @@ export const experience = [
       'Managed the mobile co-op hiring pipeline (resume screening, technical interviews, and candidate ranking) and built a co-op support program with a buddy system and team outings that earned a 9.5/10 rating from University of Waterloo participants.',
       'Collaborated with cross-functional teams in an Agile/Scrum environment to deliver high-quality software.',
     ],
+    gallery: [
+      '/media/vividseats-1.webp',
+      '/media/vividseats-2.webp',
+      '/media/vividseats-3.webp',
+      '/media/vividseats-4.webp',
+      '/media/vividseats-5.webp',
+      '/media/vividseats-6.webp',
+      '/media/vividseats-7.webp',
+    ],
     links: [
       {
         label: 'App Store',

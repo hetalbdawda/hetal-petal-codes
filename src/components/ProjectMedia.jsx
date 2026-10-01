@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { asset } from '../utils/asset'
 
 // Lightweight YouTube "facade": shows the thumbnail until clicked, then
 // swaps in the real iframe. Keeps the page fast (no YouTube JS up front).
@@ -50,8 +51,8 @@ export default function ProjectMedia({ media }) {
           ) : (
             <video
               className="media-item media-item--video"
-              src={item.src}
-              poster={item.poster}
+              src={asset(item.src)}
+              poster={asset(item.poster)}
               controls
               preload="metadata"
             />

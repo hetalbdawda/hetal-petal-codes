@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { asset } from '../utils/asset'
 
 // Horizontal screenshot strip: shows several phone screens at once and
 // auto-scrolls one forward on an interval. Dot buttons indicate and control
@@ -91,7 +92,7 @@ export default function Filmstrip({ images, interval = 5000, label = 'Gallery' }
         {images.map((src, i) => (
           <figure className="filmstrip__item" key={src}>
             <img
-              src={src}
+              src={asset(src)}
               alt={`${label}, screen ${i + 1} of ${count}`}
               loading="lazy"
               draggable="false"

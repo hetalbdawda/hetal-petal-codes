@@ -221,6 +221,9 @@ export const projects = [
         label: 'Whisk & Bean walkthrough',
       },
     ],
+    links: [
+      { label: 'GitHub', href: 'https://github.com/hetalbdawda/whisk-and-bean' },
+    ],
   },
   {
     name: 'Search & Rescue Robot Navigation',

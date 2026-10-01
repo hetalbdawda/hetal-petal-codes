@@ -154,9 +154,29 @@ export const projects = [
   {
     name: 'Impact Health: Smart Concussion Headband and React Website',
     context: 'Capstone Project',
+    featured: true,
     description:
       'Built a React web application that consumed and displayed real-time concussion monitoring data streamed from wearable sensors via live communication protocols.',
     tags: ['React', 'Real-time', 'Wearables'],
+    media: [
+      {
+        type: 'youtube',
+        id: 'AwrQqS_T6LY',
+        label: 'Project demo',
+      },
+      {
+        type: 'video',
+        src: '/media/impact-website.mp4',
+        poster: '/media/impact-website.jpg',
+        label: 'Website walkthrough',
+      },
+      {
+        type: 'video',
+        src: '/media/impact-blog.mp4',
+        poster: '/media/impact-blog.jpg',
+        label: 'Blog walkthrough',
+      },
+    ],
     links: [
       { label: 'Website', href: 'https://lailahashi.github.io/' },
       {
@@ -169,9 +189,18 @@ export const projects = [
   {
     name: 'Cafe Ordering & Reservations Website',
     context: 'Personal Project',
+    featured: true,
     description:
       'Built a React web application with a component-driven UI for menu browsing, table reservations, ingredient/allergen information, and a raffle promotion.',
     tags: ['React', 'UI/UX'],
+    media: [
+      {
+        type: 'video',
+        src: '/media/cafe-whisk-bean.mp4',
+        poster: '/media/cafe-whisk-bean.jpg',
+        label: 'Whisk & Bean walkthrough',
+      },
+    ],
   },
   {
     name: 'Search & Rescue Robot Navigation',

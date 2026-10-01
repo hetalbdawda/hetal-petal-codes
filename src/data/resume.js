@@ -119,12 +119,6 @@ export const experience = [
       'Implemented Firebase Auth and Firestore for authentication and data storage.',
       'Led a team of six developers using Jira for sprint planning.',
     ],
-    links: [
-      {
-        label: 'GitHub',
-        href: 'https://github.com/hetalbdawda/RDT-Imaging-Winter-2022',
-      },
-    ],
   },
   {
     role: 'Engineering Assistant',
@@ -138,7 +132,6 @@ export const experience = [
       'Developed a front-end application using Flutter and Kivy to integrate with the image processing backend logic.',
       'Delivered calibration tooling and backend logic tying imaging outputs to lab workflows.',
     ],
-    links: [{ label: 'GitHub', href: 'https://github.com/camryn12/RDT' }],
   },
   {
     role: 'Hermetics System Developer & Researcher',

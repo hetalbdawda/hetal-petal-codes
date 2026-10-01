@@ -157,6 +157,14 @@ export const projects = [
     description:
       'Built a React web application that consumed and displayed real-time concussion monitoring data streamed from wearable sensors via live communication protocols.',
     tags: ['React', 'Real-time', 'Wearables'],
+    links: [
+      { label: 'Website', href: 'https://lailahashi.github.io/' },
+      {
+        label: 'Blog',
+        href: 'https://impacthealthproject.wixsite.com/impact-health/blog',
+      },
+      { label: 'Demo', href: 'https://www.youtube.com/watch?v=AwrQqS_T6LY' },
+    ],
   },
   {
     name: 'Cafe Ordering & Reservations Website',

@@ -426,6 +426,34 @@
   margin-top: 18px;
 }
 
+.project-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.project-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  transition: gap 0.15s ease, opacity 0.2s ease;
+}
+
+.project-card__link span {
+  font-size: 0.8rem;
+}
+
+.project-card__link:hover {
+  gap: 7px;
+  opacity: 0.8;
+}
+
 /* ============================================================
    Education
    ============================================================ */

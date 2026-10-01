@@ -7,7 +7,7 @@ export const profile = {
   tagline: 'Full-stack engineer shipping React Native consumer apps',
   email: 'hetalbdawda@gmail.com',
   phone: '(416) 854-2165',
-  location: 'Toronto, ON',
+  location: '',
   // TODO: replace the "#" placeholders with your real profile URLs.
   links: {
     github: 'https://github.com/hetalbdawda',
@@ -68,7 +68,7 @@ export const experience = [
   {
     role: 'Front-End Software Engineer',
     company: 'Vivid Seats Ltd.',
-    location: 'Toronto, ON',
+    location: '',
     period: 'May – Sept 2022, July 2023 – Present',
     highlights: [
       'Championed the transition from native development to a modern React Native codebase powering over $1 billion in annual gross order value (GOV) across iOS and Android, aligning the initiative with C-suite and stakeholder strategy to enable a company-wide migration without business disruption.',

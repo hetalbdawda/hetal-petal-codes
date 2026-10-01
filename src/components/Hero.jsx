@@ -19,7 +19,13 @@ export default function Hero() {
           <span className="gradient-text">.</span>
         </h1>
         <p className="hero__title">
-          {title} <span className="hero__dot">•</span> {location}
+          {title}
+          {location && (
+            <>
+              {' '}
+              <span className="hero__dot">•</span> {location}
+            </>
+          )}
         </p>
         <p className="hero__tagline">{tagline}</p>
 

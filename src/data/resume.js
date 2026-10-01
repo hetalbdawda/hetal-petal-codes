@@ -197,6 +197,7 @@ export const projects = [
       },
     ],
     links: [
+      { label: 'GitHub', href: 'https://github.com/hetalbdawda/Impact-Health' },
       { label: 'Website', href: 'https://lailahashi.github.io/' },
       {
         label: 'Blog',

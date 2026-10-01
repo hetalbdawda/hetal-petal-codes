@@ -373,6 +373,15 @@
   background: var(--accent);
 }
 
+.job-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
 /* ============================================================
    Projects
    ============================================================ */

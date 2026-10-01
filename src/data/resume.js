@@ -87,6 +87,16 @@ export const experience = [
       'Managed the mobile co-op hiring pipeline (resume screening, technical interviews, and candidate ranking) and built a co-op support program with a buddy system and team outings that earned a 9.5/10 rating from University of Waterloo participants.',
       'Collaborated with cross-functional teams in an Agile/Scrum environment to deliver high-quality software.',
     ],
+    links: [
+      {
+        label: 'App Store',
+        href: 'https://apps.apple.com/ca/app/vivid-seats-buy-tickets/id963355757',
+      },
+      {
+        label: 'Google Play',
+        href: 'https://play.google.com/store/apps/details?id=com.vividseats.android&hl=en_CA',
+      },
+    ],
   },
   {
     role: 'Engineering Research Lead',

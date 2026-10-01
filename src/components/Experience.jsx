@@ -27,6 +27,22 @@ export default function Experience() {
                     <li key={i}>{point}</li>
                   ))}
                 </ul>
+                {job.links?.length > 0 && (
+                  <div className="job-card__links">
+                    {job.links.map((link) => (
+                      <a
+                        key={link.label}
+                        className="project-card__link"
+                        href={link.href}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {link.label}
+                        <span aria-hidden="true">↗</span>
+                      </a>
+                    ))}
+                  </div>
+                )}
               </article>
             </li>
           ))}

@@ -408,21 +408,39 @@
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  padding-bottom: 10px;
   -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox: hide scrollbar, dots replace it */
 }
 
 .filmstrip__track::-webkit-scrollbar {
-  height: 6px;
+  display: none; /* WebKit: hide scrollbar */
 }
 
-.filmstrip__track::-webkit-scrollbar-thumb {
-  background: var(--border);
-  border-radius: 999px;
+.filmstrip__dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 18px;
 }
 
-.filmstrip__track::-webkit-scrollbar-thumb:hover {
-  background: var(--text-faint);
+.filmstrip__dot {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  border: 2px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.filmstrip__dot:hover {
+  border-color: var(--accent);
+}
+
+.filmstrip__dot.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
 }
 
 .filmstrip__item {

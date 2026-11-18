@@ -3,7 +3,7 @@
 A personal front-end portfolio built with **React 19** and **Vite**. Front-end
 software engineer shipping React Native consumer apps.
 
-🔗 **Live site:** _add your deployment URL here_
+🔗 **Live site:** https://hetalbdawda.github.io/hetal-petal-codes/
 
 ## Sections
 
